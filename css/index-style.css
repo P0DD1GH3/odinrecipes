@@ -1,0 +1,17 @@
+
+
+
+
+
+
+.bg-color{
+    background-color: #f2e8cd;
+}
+
+header, img{
+
+    max-width: 70;
+    display: flex;
+    margin-top: 15px;    
+    justify-content: center;
+}
