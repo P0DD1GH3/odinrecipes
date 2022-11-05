@@ -1,17 +1,33 @@
 
 
 
-
-
-
 .bg-color{
     background-color: #f2e8cd;
 }
 
-header, img{
-
-    max-width: 70;
+.top-banner {
     display: flex;
-    margin-top: 15px;    
-    justify-content: center;
+    justify-content: center;   
 }
+
+.top-banner img{
+    border: 2px solid #93a4a4;
+    border-radius: 20px 0 35px 35px;
+
+}
+
+
+
+.thumb-container{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.allrecipes{
+   
+    margin-top: 20%;
+    max-width: 200px;
+    max-height:200px;
+}
+
