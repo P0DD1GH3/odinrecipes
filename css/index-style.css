@@ -1,41 +1,119 @@
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 .bg-color {
-  background-color: #f2e8cd;
+  background-color: #f8f2e2;
+}
+
+body{
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 
 .top-banner {
   display: flex;
   justify-content: center;
-}
-
-.top-banner img {
-    opacity: 0.7;
-  border: 2px solid #93a4a4;
+  margin: 0.3rem;
+  opacity: 0.7;
+  border: 4px solid rgba(0, 0, 0, 0.6);
   border-radius: 20px 0 35px 35px;
+  background: linear-gradient(rgba(255,255,0, 0.6), rgba(255,0,0,0.6 ));
 }
 
-.thumb-container {
+.top-banner h1{
+  font-family: 'Chango', cursive;
+  font-size: 4rem;
+  
+
+}
+
+.thumb-container{
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   gap: 3%;
 }
 
+/*transparancy and scuareness to png img*/
 .allrecipes {
-    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.6));
-    margin-top: 20%;
-  max-width: 300px;
-  max-height: 300px;
+  display: flex;
+  align-items: center;
+  width:100%;
+  filter: drop-shadow(3px 2px 2px rgba(0, 0, 0, 0.6));
   opacity: 0.6;
+}
+
+.imgfoot {
+  font-family: "Ranchers", cursive;
+  font-weight: 200;
+  font-size: 2rem;
+  filter: drop-shadow(2px 2px 2px rgb(112, 101, 83));
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(255, 255, 255, 0.7);
+  background-color: rgba(100, 100, 100, 0.4);
+  padding: 15px;
   
 }
 
-.imgfoot{
-    font-family: 'Ranchers', cursive;
-    font-weight: 200;
-    font-size: 2rem;
-    filter: drop-shadow(2px 2px 2px rgb(112, 101, 83));
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
+.footcontainer {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 2%;
+
+}
+
+.social-icons {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: linen;
+}
+
+@media screen and (min-width:800px){
+ 
+ body{
+  overflow: auto;
+  max-height: 50%;
+ }
+
+ .top-banner {
+  display: flex;
+  margin: 0% 10% 0%;
+  justify-content: space-around;
+  max-width: 80%;
+ }
+  .allrecipes{
+  padding-top: 2.5rem;
+  max-width: 350px;
+  max-height: 350px;
+ } 
+
+ .imgfoot{
+  align-items: center;
+  justify-content: center;
+ }
+ 
 }
