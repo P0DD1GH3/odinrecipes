@@ -1,33 +1,41 @@
 
 
-
-.bg-color{
-    background-color: #f2e8cd;
+.bg-color {
+  background-color: #f2e8cd;
 }
 
 .top-banner {
-    display: flex;
-    justify-content: center;   
+  display: flex;
+  justify-content: center;
 }
 
-.top-banner img{
-    border: 2px solid #93a4a4;
-    border-radius: 20px 0 35px 35px;
-
+.top-banner img {
+    opacity: 0.7;
+  border: 2px solid #93a4a4;
+  border-radius: 20px 0 35px 35px;
 }
 
+.thumb-container {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
 
+.allrecipes {
+    filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.6));
+    margin-top: 20%;
+  max-width: 300px;
+  max-height: 300px;
+  opacity: 0.6;
+  
+}
 
-.thumb-container{
+.imgfoot{
+    font-family: 'Ranchers', cursive;
+    font-weight: 200;
+    font-size: 2rem;
+    filter: drop-shadow(2px 2px 2px rgb(112, 101, 83));
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    gap: 3%;
 }
-
-.allrecipes{
-   
-    margin-top: 20%;
-    max-width: 200px;
-    max-height:200px;
-}
-
