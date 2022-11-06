@@ -71,9 +71,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: rgb(255, 255, 255, 0.7);
-  background-color: rgba(100, 100, 100, 0.4);
-  padding: 15px;
+  color: rgb(255, 255, 255, 0.9);
+  background-color: rgba(100, 100, 100, 0.6);
+  padding: 5px;
+  
   
 }
 
@@ -90,6 +91,10 @@ footer {
 a {
   text-decoration: none;
   color: linen;
+}
+
+em{
+  color:darkslategrey
 }
 
 @media screen and (min-width:800px){
@@ -115,5 +120,7 @@ a {
   align-items: center;
   justify-content: center;
  }
- 
+ footer{
+  padding: 15px;
+ }
 }
