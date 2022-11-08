@@ -63,7 +63,7 @@ body {
 }
 
 footer {
-  position: absolute;
+  /*position: absolute; when in doubt. comment it out*/
   right: 0;
   left: 0;
   bottom: 0;
